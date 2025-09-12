@@ -1,0 +1,349 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Junjie Wang</title>
+
+    <meta name="author" content="Junjie Wang">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/person/er_qi.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+  <style>
+    .new-badge {
+      display: inline-block;
+      background-color: #ff4d4f; /* 红色背景 */
+      color: white;
+      font-size: 8px;
+      font-weight: bold;
+      padding: 1px 4px;
+      border-radius: 4px;
+      margin-left: 4px;
+      animation: blink 3s infinite;
+      position: relative; 
+      top: -2px;
+    }
+
+    @keyframes blink {
+      0%, 50%, 100% { opacity: 1; }
+      25%, 75% { opacity: 0; }
+    }
+  </style>
+
+  <style>
+  .hoverSwap {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out; /* 平滑过渡 */
+  }
+
+  /* 鼠标悬停时更换图片 */
+  .hoverSwap:hover {
+    content: url('images/person/caicai_stand.jpg');
+  }
+  </style>
+
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Junjie Wang (王俊杰)
+                </p>
+                <p>
+		I am an independent research scientist based in Boston, MA. Previously, I worked as a research scientist at Huawei, focusing on 3D editing and generation, under the guidance of <a href="https://jaminfong.cn/">Dr. Jiemin Fang</a> and <a href="https://www.qitian1987.com/">Dr. Qi Tian</a>. 
+    <br>
+    <br>
+    I received my M.S. degree from <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a> in 2021, under the supervision of <a href="https://ieeexplore.ieee.org/author/37073113700">Prof. Feng Zhang</a>. Earlier, I obtained my B.S. degree from the same university in 2018, under the supervision of <a href="https://ieeexplore.ieee.org/author/37402609400">Prof. Keyou Wang</a>.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:is.wangjunjie@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=9Nw_mKAAAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images\person\WANGJUNJIE.jpg" class="hoverSwap"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  I am interested in emerging technologies, particularly those related to artificial intelligence. My current research focuses on computer vision, particularly 3D vision. I aim to develop computer vision methods that: (1) enable machines to perceive and interact with the physical world in order to assist people with everyday tasks, and (2) create immersive and playful virtual worlds that are accessible and enjoyable for everyone.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+    <tr onmouseout="gaussianeditor_stop()" onmouseover="gaussianeditor_start()"  >
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='gaussianeditor'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/gaussianeditor.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+
+          </video></div>
+          <img src='images/gaussianeditor.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function gaussianeditor_start() {
+            document.getElementById('gaussianeditor').style.opacity = "1";
+          }
+
+          function gaussianeditor_stop() {
+            document.getElementById('gaussianeditor').style.opacity = "0";
+          }
+          gaussianeditor_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://gaussianeditor.github.io/">
+          <span class="papertitle">GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions</span>
+        </a>
+        <br>
+        <strong>Junjie Wang</strong>*,
+        <a href="https://jaminfong.cn/">Jiemin Fang</a>*,
+        <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&hl=zh-CN">Xiaopeng Zhang</a>,
+        <a href="http://lingxixie.com/Home.html">Lingxi Xie</a>,
+        <a href="https://www.qitian1987.com/">Qi Tian</a>,
+        <br>
+        <em>CVPR</em>, 2024 <span class="new-badge">NEW</span>
+        <br>
+        <a href="https://gaussianeditor.github.io/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2311.16037">arXiv</a>
+        <p></p>
+        <p>
+          A general framework for 3D scene editing that enables precise text-based modifications of 3D assets within 20 minutes.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="gaussiandreamer_stop()" onmouseover="gaussiandreamer_start()"  >
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='gaussiandreamer'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/gaussiandreamer.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+
+          </video></div>
+          <img src='images/gaussiandreamer.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function gaussiandreamer_start() {
+            document.getElementById('gaussiandreamer').style.opacity = "1";
+          }
+
+          function gaussiandreamer_stop() {
+            document.getElementById('gaussiandreamer').style.opacity = "0";
+          }
+          gaussiandreamer_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://taoranyi.com/gaussiandreamer/">
+          <span class="papertitle">GaussianDreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors</span>
+        </a>
+        <br>
+        <a href="https://taoranyi.com/">Taoran Yi</a>,
+        <a href="https://jaminfong.cn/">Jiemin Fang</a>,
+        <strong>Junjie Wang</strong>,
+        <a href="https://guanjunwu.github.io/">Guanjun Wu</a>,
+        <a href="http://lingxixie.com/Home.html">Lingxi Xie</a>,
+        <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&hl=zh-CN">Xiaopeng Zhang</a>,
+        <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Wenyu Liu</a>,
+        <a href="https://www.qitian1987.com/">Qi Tian</a>,
+        <a href="https://xwcv.github.io/">Xinggang Wang</a>,
+        <br>
+        <em>CVPR</em>, 2024 <span class="new-badge">NEW</span>
+        <br>
+        <a href="https://taoranyi.com/gaussiandreamer/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2310.08529">arXiv</a>
+        /
+        <a href="https://github.com/hustvl/GaussianDreamer">code</a>
+        <p></p>
+        <p>
+		A fast 3D generation framework that produces a high-quality 3D instance within 25 minutes on a single GPU.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="gdp_stop()" onmouseover="gdp_start()"  >
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='gdp'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/gdp.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+
+          </video></div>
+          <img src='images/gdp.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function gdp_start() {
+            document.getElementById('gdp').style.opacity = "1";
+          }
+
+          function gdp_stop() {
+            document.getElementById('gdp').style.opacity = "0";
+          }
+          gdp_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://taoranyi.com/gaussiandreamerpro/">
+          <span class="papertitle">GaussianDreamerPro: Text to Manipulable 3D Gaussians with Highly Enhanced Quality</span>
+        </a>
+        <br>
+        <a href="https://taoranyi.com/">Taoran Yi</a>,
+        <a href="https://jaminfong.cn/">Jiemin Fang</a>,
+        <a href="https://github.com/Zanue">Zanwei Zhou</a>,
+        <strong>Junjie Wang</strong>,
+        <a href="https://guanjunwu.github.io/">Guanjun Wu</a>,
+        <a href="http://lingxixie.com/Home.html">Lingxi Xie</a>,
+        <a href="https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&hl=zh-CN">Xiaopeng Zhang</a>,
+        <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Wenyu Liu</a>,
+        <a href="https://xwcv.github.io/">Xinggang Wang</a>,
+        <a href="https://www.qitian1987.com/">Qi Tian</a>,
+        <br>
+        <em>arXiv</em>, 2024 <span class="new-badge">NEW</span>
+        <br>
+        <a href="https://taoranyi.com/gaussiandreamerpro/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2406.18462">arXiv</a>
+        /
+        <a href="https://github.com/hustvl/GaussianDreamerPro">code</a>
+        <p></p>
+        <p>
+		A method that generates highly detailed and high-quality 3D assets from text, whose outputs can be readily integrated into downstream pipelines such as animation, composition, and simulation.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="driving_stop()" onmouseover="driving_start()"  >
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='driving'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/driving.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+
+          </video></div>
+          <img src='images/driving.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function driving_start() {
+            document.getElementById('driving').style.opacity = "1";
+          }
+
+          function driving_stop() {
+            document.getElementById('driving').style.opacity = "0";
+          }
+          driving_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://ieeexplore.ieee.org/document/9528228">
+          <span class="papertitle">Cooperative Detection Method for Distracted and Fatigued Driving Behaviors With Readily Embedded System Implementation</span>
+        </a>
+        <br>
+        <strong>Junjie Wang</strong>,
+        <a href="https://ieeexplore.ieee.org/author/37086477528">Yangkun Wang</a>,
+        <a href="https://ieeexplore.ieee.org/author/37089578885">Yi Dai</a>,
+        <a href="https://ieeexplore.ieee.org/author/37073113700">Feng Zhang</a>,
+        <a href="https://ieeexplore.ieee.org/author/37089578974">Xiaodong Yu</a>,
+        <br>
+        <em>IEEE Transactions on Instrumentation and Measurement</em>, 2022
+        <br>
+        <a href="https://ieeexplore.ieee.org/document/9528228">paper</a>
+        <p></p>
+        <p>
+		A cooperative approach for detecting distracted and fatigued driving behaviors, with practical embedded system implementation.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="train_stop()" onmouseover="train_start()"  >
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='train'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/train.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+
+          </video></div>
+          <img src='images/train.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function train_start() {
+            document.getElementById('train').style.opacity = "1";
+          }
+
+          function train_stop() {
+            document.getElementById('train').style.opacity = "0";
+          }
+          train_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://onlinelibrary.wiley.com/doi/10.1155/2019/5174961">
+          <span class="papertitle">A Real-Time Timetable Rescheduling Method for Metro System Energy Optimization under Dwell-Time Disturbances</span>
+        </a>
+        <br>
+        <a href="https://ieeexplore.ieee.org/author/37089402688">Guang Yang</a>,
+        <strong>Junjie Wang</strong>,
+        <a href="https://ieeexplore.ieee.org/author/37073113700">Feng Zhang</a>,
+        <a href="https://ieeexplore.ieee.org/author/37596288600">Shiwen Zhang</a>,
+        <a href="https://ieeexplore.ieee.org/author/37086029731">Cheng Gong</a>,
+        <br>
+        <em>Journal of Advanced Transportation</em>, 2019
+        <br>
+        <a href="https://onlinelibrary.wiley.com/doi/10.1155/2019/5174961">paper</a>
+        <p></p>
+        <p>
+		A method for immediate rescheduling of trains under unexpected disturbances, maximizing the reuse of regenerative energy.
+        </p>
+      </td>
+    </tr>
+
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Service</h2>
+                <p>
+                  <strong>Reviewer:</strong> SIGGRAPH Asia
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  This webpage is adapted from a <a href="https://github.com/jonbarron/jonbarron_website">template</a> kindly shared by <a href="https://jonbarron.info/">Jon Barron</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
